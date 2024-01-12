@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Fractal Generator</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: #1b1b1b;
+    }
+
+    svg {
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 0 0 H 1000 V 1000 H 0 L 0 0" fill="red" id="background"/>
+    <path d="" fill="none" stroke="black" id="drawing"/>
+  </svg>
+</body>
+
+<script type="text/javascript" src="./rules.js"></script>
+<script type="text/javascript" src="./sketch.js"></script>
+</html>
