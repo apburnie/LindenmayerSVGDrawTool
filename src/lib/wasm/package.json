@@ -1,0 +1,14 @@
+{
+  "name": "fractal-draw",
+  "version": "0.1.0",
+  "files": [
+    "fractal_draw_bg.wasm",
+    "fractal_draw.js",
+    "fractal_draw.d.ts"
+  ],
+  "module": "fractal_draw.js",
+  "types": "fractal_draw.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

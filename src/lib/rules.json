@@ -1,0 +1,20 @@
+{
+    "recursions": 10,
+    "axiom": "m",
+    "startPosition": {
+        "x": 50000,
+        "y": 100000,
+        "angle": 0,
+        "memory": {
+            "x": [],
+            "y": [],
+            "angle": []
+        }
+    },
+    "stringConvert": {
+        "m": "l[-m]+m",
+        "l": "ll"
+    },
+    "growthFactor": 100,
+    "angleShift": 45
+}
